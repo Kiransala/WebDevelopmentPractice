@@ -1,0 +1,26 @@
+.newlayout{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;/*flex wrap wraps the page when not minimized*/
+}
+
+.first{
+  flex-shrink: 1;
+}
+
+.second{
+  flex-shrink: 2;/*flex shrink here shrinks twice faster as compare to first*/
+}
+
+.newlayout div{
+background-color: red;
+height: 50px;
+width: 50px;
+flex-basis: 300px;/*flex basic work in the direction of the main axis*/
+border: 2px solid black;
+margin: 10px;
+}
+
+body{
+  background-color: cyan;
+}
