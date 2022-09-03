@@ -1,0 +1,25 @@
+h1 { 
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+}
+
+aside{
+  color: greenyellow;
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  border-radius: 20%;
+}
+
+div{
+  color: coral;
+  background-color: darkblue;
+  width: 300px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+body{
+  background-color: cyan;
+}
