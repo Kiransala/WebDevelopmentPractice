@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+#parent{
+  display: flex;
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;/*align item in the main axis*/
+  align-items: center;/*align item in the secondary axis*/
+  /*justify-content: flex-end; push the item to the end*/
+  /*flex-start,flex-start;center,flex-start;flex-end,flexstart;flex-end,center;flex-end,flex-end;center,flex-end;flex-start,flex-end;flex-start,center;center,center*/
+
+}
+
+.child{
+  background: yellow;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
