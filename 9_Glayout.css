@@ -41,3 +41,11 @@ nav ul li{
   background:rgb(191, 185, 185) ;
   width: 100%;
 }
+
+h1{
+  text-align: center;
+  padding: 10px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.538);
+  font-size: 20vh;
+  color: aqua;
+}
